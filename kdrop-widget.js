@@ -44,7 +44,8 @@
 
     iframe = document.createElement("iframe");
     iframe.id = "kdrop-popup-iframe";
-    iframe.src = `https://kgn.live/k-drop/campaigns/${config.campaignId}?embed=true&influencer=${config.influencerId}`;
+    // iframe.src = `https://kgn.live/k-drop/campaigns/${config.campaignId}?embed=true&influencer=${config.influencerId}`;
+    iframe.src = `https://google.com`;
     iframe.style.position = "fixed";
     iframe.style.bottom = "80px";
     iframe.style.right = config.position === "bottom-left" ? "auto" : "20px";
